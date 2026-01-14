@@ -1,81 +1,108 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE-edge">
-    <link rel="stylesheet" href="animacion.css">
     <link rel="stylesheet" href="EXPER.css">
+    <link rel="stylesheet" href="animacion.css">
     <link rel="stylesheet" href="CUBO3d.css">
+
     <meta name="viewport" content="width=device-width, user-scaleble=no,initial-scale=1.0,
     maximum-scale=1.0, minimum-scale= 1.0">  
-   <title>EL MEJOR SITIO Fitness</title>
- <!--para ganar con la publicidad de bit.ly-->
- <script type="text/javascript">
-   var adfly_id = 26874097;
-   var popunder_frequency_delay = 0;
-   var adfly_google_compliant = false;
-   </script>
-  <script src="http://cdn.adf.ly/js/display.js"></script>
- <!--<script src="ejemplo.js"></script>-->
+   <title>Guía de Fitness para bajar de peso sin Hambre | Recetas Saludables y comunidad</title>
 </head>   
+
 <body>
-<nav><!--la barra  de navegacion-->
-  <ul>
-    <li><a href="https://fit1.vercel.app/vitaminas.html">Vitaminas</a></li>
-    <li><a href="https://go.hotmart.com/W70096120V">Recetas Saludables</a></li>
-    <li><a href="https://motivacion10.vercel.app/">Motivacion10</a></li>
-  </ul>
-</nav>
-<!--colocamo el log de la compañia-->
-<div id="logo"> <img src="imagenes/abeja.gif"> </div>
-<!--animacion de texto en el encabezado-informativo-->
-<div class="informativo">
- <p>   
-  Me causaba <b>ansiedad, cansancio y mi productividad en el día a día disminuía</b> 
-  por no poder dormir y descansar apropiadamente.
-  Aplicando Técnicas de relajación casi desconocidas para finalmente lograr paz, 
-  tranquilidad y serenidad.
-</p>
-</div>
+ <div class="logo"> <img src="imagenes/abeja.gif"> </div>
+ 
+ <!--animacion de texto en el encabezado-informativo-->
+ <div class="informativo">
+  <p>   
+   Me causaba <b>ansiedad, cansancio y mi productividad en el día a día disminuía</b> 
+   por no poder dormir y descansar apropiadamente.
+   Aplicando Técnicas de relajación casi desconocidas para finalmente lograr paz, 
+   tranquilidad y serenidad.
+  </p>
+ </div>
+
+ <nav>
+   <div class="menu" id="menu"> ☰ </div>
+  
+   <ul class="links" id="links">
+      <li><a href="https://fit1.vercel.app/vitaminas.html">Vitaminas</a></li>
+      <li><a href="https://go.hotmart.com/W70096120V">Recetas Saludables</a></li>
+      <li><a href="https://motivacion10.vercel.app/">Motivacion10</a></li>
+   </ul>
+   <script>
+      const toggle = document.getElementById("menu");
+      const nav = document.getElementById("links");
+        toggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+        });
+   </script>
+ </nav>
+ 
 
 <div class="contenedor">
-<br><br><br><br>
-<header class="header content"><!--le damos dos estilos header.. content..-->
-        
- <div class="header-video"><!--primera capa de fondo-->
-  <video src="imagenes/fondo.mp4" autoplay loop></video>
- </div>        
- <div class="header-overlay"></div><!--segunda capa transparente-->
+ <br><br><br>
 
- <div class="header-content"><!--tercera capa que muestra el contenido-->
-   <h1>Conocimiento FITNESS y Recetas Saludables</h1>
+ <!--encabezado-->
+ <header class="header content"><!--le damos dos estilos header.. content..-->
+        
+  <div class="header-video"><!--1. capa de fondo: con VIDEO-->
+    <video src="imagenes/fondo.mp4" autoplay muted loop></video>
+  </div>
+         
+  <div class="header-overlay"></div><!--2. capa transparente-->
+
+  <div class="header-content"><!--3. capa que muestra el contenido-->
+    <h1>
+      Una forma Saludable y tranquila de bajar de peso sin pasar hambre, a tu ritmo y con acompañamiento real
+    </h1>
     <div class="banner">
-    <p><b><h3>Puedes lograrlo! Ven y conoce metodos que te pueden Ayudar!:)</h3></b></p>
-   </div> 
-   <hr> 
-   <b>Desarrollar tu potencial es una habilidad o cualidad natural que pede ser dessarrollada;
-    depende de su inter&eacute;s y motivac&iacute;on. Personas, problemas y situaci&oacutenes influyen
-    sobre la posibilidad de alcanzar su m&aacute;ximo potencial;</b> pero debe
-   ser consciente de qu&eacute; quiere alcanzar por s&iacute; mismo. Todos nosotros en
-   alg&uacute;na parte de nuestras vidas hemos sentido que nada importa,
-    pero esto tiene soluci&oacuten. Un aspecto fundamental es nuestro propio autoestima que se encarga de mostrar
-   lo malo que nos encontramos en nuestra salud mental y afectiva. 
-   <p>Qu&eacute tan f&aacutecil es reconocer 
-   nuestras propias fobias que se encargan de moldear nuestro autoestima y motivaci&oacuten?
-   <b>Como encontrarnos a nosotros mismos y como encontra esa labor que nos permita superarnos, crecer como personas
-   y contribuir a la sociedad?</b></p>
-   <p><a href="https://go.hotmart.com/E70487989G">Entender la ansiedad aqu&iacute ingresa</a> </p>
-   <br><br><hr>
-   <!--colocamos un enlace de referencia y le damos uns clase para identificarlo-->
-   <a href="https://ansiedad10.vercel.app/" target="_blank" class="boton"> Visita nuestra web</a>
- </div>
+     <p><b><h3>El 72% abandona el ejercicio en casa por una razón que nadie se entera
+              <p>No es falta de motivación, ni tiempo.</p></h3></b></p>
+    </div> 
+    <hr> 
+    
+    <b>“Por qué el progreso fitness no se pierde por malos ejercicios, sino por no medir lo invisible”
+       Desarrollar tu potencial es una habilidad o cualidad natural que pede ser dessarrollada;
+       depende de su inter&eacute;s y motivac&iacute;on. Personas, problemas y situaci&oacutenes influyen
+       sobre la posibilidad de alcanzar su m&aacute;ximo potencial;
+    </b>pero debe ser consciente de qu&eacute; quiere alcanzar por s&iacute; mismo. Todos nosotros en
+       alg&uacute;na parte de nuestras vidas hemos sentido que nada importa,
+       pero esto tiene soluci&oacuten. Un aspecto fundamental es nuestro propio autoestima que se encarga de mostrar
+       lo malo que nos encontramos en nuestra salud mental y afectiva. 
+    <p>Qu&eacute tan f&aacutecil es reconocer 
+       nuestras propias fobias que se encargan de moldear nuestro autoestima y motivaci&oacuten?
+    <b>Como encontrarnos a nosotros mismos y como encontra esa labor que nos permita superarnos, crecer como personas
+       y contribuir a la sociedad?</b></p>
+       <p><a href="https://go.hotmart.com/E70487989G">Entender la ansiedad aqu&iacute ingresa</a> </p>
+       <br><hr>
+       <!--colocamos un enlace de referencia y le damos uns clase para identificarlo-->
+       <a href="https://ansiedad10.vercel.app/" target="_blank" class="boton"> Visita nuestra web</a>
+  </div>
 </header>
 
 <section class="main">
  <article class="casa">
-  <h2>EJERCICIOS SALUDABLES DESDE LA COMODIDAD DE SU HOGAR</h2><br><hr>
-
-  Para hacer actividades que ayuden a fortalecer los m&uacute;sculos, y ayudarle a
+  <h2>Lo que los datos dicen: entrenar en casa puede ser más efectivo que el gimnasio (si haces esto):
+  </h2>
+  <br><hr>
+  <p><b>Los entrenadores miden:</b> Repeticiones, peso, duración.</p>
+  <p><b>Pero casi nunca se mide:</b>constancia semanal, energía diaria,
+     adherencia alimentaria y motivación real.
+  </p> 
+  <b> sin eso, el cuerpo no progresa.</b>
+  <h3>Estudios muestran que más del 65% abandona programas fitness aunque sean técnicamente correctos.</h3>
+  <p>¿Y si el problema no fuera el entrenamiento, sino lo que no estás midiendo?</p>
+  <h3>El mito del entrenamiento perfecto:
+  <p>No necesitas rutinas complejas.</p>
+  <p>Necesitas rutinas sostenibles.</p>
+  <p>El progreso viene de la repetición, no del castigo físico.</p>
+  </h3>
+<h2>Aquí conectas con tus rutinas sencillas en casa.</h2>  
+  <p>Para hacer actividades que ayuden a fortalecer los m&uacute;sculos, y ayudarle a
   quemar m&aacute;s calor&iacute;as. puede levantar pesas, utilizar bandas de goma
   o ligas grandes de resistencia, hacer flexiones o abdominales, o hacer quehaceres
   dom&eacute;siticos, que le hagan levantar alg&uacute;n peso. Hacer actividades de
@@ -83,10 +110,11 @@
   musculoso". Solamente el entrenamiento intenso para endurecer los m&uacute;sculos,
   combinado con la gen&eacute;tica (los genes heredados de los padres), logran formar
   m&uacute;sculos muy grandes.
+  </p>
+  
   <p> <img src="imagenes/1.png"><img src="imagenes/2.png"> </p>
-  <br>
-  Consejo: 
-  <hr><br><br>
+  <br> Consejo: 
+  <hr>
   Las gu&iacute;as gubernamentales para la actividad f&iacutesica recomiendan que
   los adultos hagan ejercicios para fortalecer los m&uacute;sculos por lo menos 2
   veces a la semana. Estas gu&iacute;as tambi&eacute;n sugieren que los adultos deben
@@ -95,9 +123,10 @@
   m&aacute;s r&aacute;pido e incluye actividades como caminar a paso ligero o andar
   en bicicleta.
  </article>
-<br></br><hr>
+ <br>
+ 
  <article class="grasa">
-    <h1> ¿Es posible desarrollar músculos y perder grasa corporal al mismo tiempo?</h1>
+    <h2> ¿Es posible desarrollar músculos y perder grasa corporal al mismo tiempo?</h2>
     <br>
     <p>
       Una pregunta que me hacen continuamente es: “¿Es posible perder grasa 
@@ -128,24 +157,44 @@
      efectiva.
    </p>
  </article>
-<br><br><hr> 
+<hr><br>
+
  <article class="fisico"> 
-  Todavía dudas de <b> REGISTRARTE al programa</b> Claves Para desarrollar su 
+  <h2>La nutrición que sí se mantiene, Aquí rompes otro mito:</h2>
+  <p><b>Comer “perfecto” NO es sostenible, Comer simple y repetible, sí</b>.</p>
+  <p><h3>Ventajas de recetas fitness sencillas:</h3></p>
+  <p>Menos decisiones, Menos ansiedad y Más adherencia.</p><hr>
+  <p><b>poder medir lo que nadie mide. Aquí entra tu parte más fuerte:</b></p> 
+  <p><h3>Métricas reales:</h3></p>
+  <p>Tus Días entrenados / semana</p>
+     Cuanto Nivel de energía (1–5). puedes tener. 
+  <p>Como esta tu Estado de ánimo.</p>
+  <p>Cuantas Calorías aproximadas, no obsesivas puedes quemar por sesion.</p>
+  <p>Esto conecta brutal con tus medidores de rendimiento.</p>
+  <p><b>La comunidad como acelerador invisible. Este punto casi nadie lo toca bien:</b></p>
+  <p><h3>Datos reales:</h3></p>
+  <p>Personas con comunidad tienen mayor adherencia. <b>Compartir progreso = refuerzo dopamínico.</b></p>
+  <p>Si No entrenas solo → abandonas menos</p>
+  <br>
+  <p><h3>"El verdadero progreso no está en hacer más, sino en sostenerlo mejor.
+         Por eso los sistemas simples, medibles y compartidos funcionan más que
+          la motivación sola."
+  </h3></p>  
+  Todavía dudas de <b> REGISTRARTE</b> al programa Claves Para desarrollar su 
   potencial con nuestros entrenamiento FITNESS.
-  <h2>RECETAS FITNESS  Y KETO INCRE&Iacute;BLES</h2>
    <p><b>"Que tu alimento sea tu &uacute;nica medicina"</b></p>
    <p><img src="imagenes/clicaqui.gif"></p>
    <p> Gran oportunidad para cambiar tu vida</p>
-   <br><br>
-   <p> <a href="https://go.hotmart.com/W70096120V">Estas a un click de mejorar</a></p>
+   <br>
+   <p> <a href="https://go.hotmart.com/W70096120V" target="_blank" class="boton">Estas a un click de mejorar</a></p>
   <hr><br>
  <p>
-  <h1>Aptitud física</h1><br>
+  <h2>Aptitud física</h2>
   <img src="imagenes/4.png" alt="">
-  <h3>Es la capacidad de funcionar eficazmente durante toda la jornada laboral, 
+  <h3>Capacidad de funcionar eficazmente durante toda la jornada laboral, 
   realizar sus otras actividades habituales y aún tener suficiente energía para manejar cualquier
   estrés adicional o emergencia que pueda surgir.</h3>
-  <br>
+  
   <ol>
    <h2>Los componentes de la aptitud física son:</h2>
    <li><b>1. Resistencia cardiorrespiratoria (CR):</b> 
@@ -153,59 +202,68 @@
      necesarios para la actividad muscular y transporta los productos de 
      desecho de las células.
    </li>
+   
    <li><b>2.Fuerza muscular:</b> la mayor cantidad de fuerza que un músculo o 
     grupo de músculos puede ejercer en un solo esfuerzo.
    </li>
+   
    <li><b>3. Resistencia muscular:</b> la capacidad de un músculo o grupo de 
     músculos para realizar movimientos repetidos con una fuerza submáxima 
     durante períodos de tiempo prolongados.
    </li>
+   
    <li><b>4. Flexibilidad:</b> la capacidad de mover las articulaciones o cualquier 
     grupo de articulaciones a través de un rango completo y normal de 
     movimiento.
   </li>
+  
   <li><b>5. Composición corporal:</b> el porcentaje de grasa corporal que tiene una 
     persona en comparación con su masa corporal total.
   </li>
 </ol>
-<hr><br>
-<h2> METODO FITNESS.</h2> El termino FITNESS se utiliza para definir una serie de ejercicios
-f&iacute;sicos que se realizan en gimnasios o instalaciones deportivas.<br>
-<br>
+<hr>
+
+<h2> El progreso real no se trata de hacer más, sino de sostenerlo mejor</h2> 
+<p>Entrenar en casa no falla por falta de ejercicios, falla cuando no existe un sistema que acompañe al cuerpo y a la mente.</p>
+
 <img src="imagenes/5.png" alt="">
+
+<h3>Aunque el 65% de las personas abandona su rutina fitness aunque sea “correcta”
+Y no es por falta de disciplina, ni por falta de ganas.
+</h3>
 Destinados a conseguir una condici&oacute;n f&iacute;sica &oacute;ptima y a mejorar
 la salud en general.Siempre se encuentra en constante cambio y evoluci&oacute;n,
 surgen nuevas tendencias nuevos materiales y actividades , pero el objetivo siempre
 es el mismo, la b&uacute;squeda de la armon&iacute;a y el equilibrio de todo el
 CUERPO! Para poder conseguirlo se debe trabajar de forma global:
 ejercicios variados y no especializados.
- <p><a href="https://go.hotmart.com/W70096120V"> </a></p>
+<hr> <p><a href="https://go.hotmart.com/W70096120V">mira el video de lo que puedes conseguir</a></p><hr>
  
-<p><b> Una DIETA balanceada es la forma mas com&uacute;n de perder peso en el mundo, 
-pero en verdad funciona? </b> Un hecho es que se le obliga a reducir estrictamente 
-lo que come o evitar ciertos tipos de alimentos. cuando una persona se decide de verdad a perder
-peso puede que s&iacute; lo logre al principio, pero nos cansadamos de seguirlas
-y volvemos a subir el peso que hab&iacute;an perdido. </p>
-<p>Estas dietas pueden causar cierto problema en el cuerpo, como <b>no proveer los 
+<p><b>Comer bien no es comer perfecto.</b>Otro punto donde mucha gente se pierde: es la alimentación.
+<p>El problema no es saber qué comer; El problema es sostenerlo en el tiempo.</p>
+<h3>Las recetas fitness complicadas:</h3>
+<p>Cansan, Frustran, Se abandonan. En cambio, las recetas saludables simples y repetibles:</p>
+<p>
+Reducen decisiones, Disminuyen ansiedad, Se integran a la rutina real. No necesitas comer “limpio” todos los días.
+Necesitas comer mejor de forma constante. El error que casi nadie mide (y que define tu progreso)
+</p>
+<h3>Aquí está el punto que muchos entrenadores pasan por alto.</h3>
+Se mide:❌ peso❌ repeticiones❌ calorías exactas.
+<p>Pero casi nunca se mide:</p>✅ cuántos días entrenas realmente✅ tu nivel de energía diario
+✅ tu estado de ánimo✅ tu constancia semanal
+Y sin medir eso, el progreso se vuelve invisible.
+</p>
+<br><hr>
+<p><h3>Algunas dietas FITNESS o KETO extremas, pueden causar cierto problema en el cuerpo, como <b>no proveer los 
   nutrientes que el cuerpo necesita,</b> ademas la perdida de peso rápido y no 
 controlable como 3 o 4 libras a la semana puede aumentar la posibilidad de 
 enfermedades como calculos biliares(masa que se acumula en la ves&iacute;cula 
 biliar que pueden ser muy dolorosas). dietas de menos de 800 calorias por 
-largo tiempo causa problemas del coraz&oacute;n. </p>
- <br>
-<p>
- <h2>Mejorar los tres primeros componentes de la aptitud física enumerados anteriormente tendrá 
- un impacto positivo en la composición corporal y dará como resultado una menor cantidad de grasa.</h2>
- El exceso de grasa corporal afecta negativamente a los demás componentes de la aptitud física, 
- reduce el rendimiento, perjudica la apariencia y afecta negativamente a la salud.
- Factores como la velocidad, la agilidad, la potencia muscular, la coordinación ojo-mano y ojo-pie 
- se clasifican como componentes de la aptitud “motora”. Estos factores afectan en gran medida a su 
- capacidad atlética. Un entrenamiento adecuado puede mejorar estos factores dentro de los límites de su 
- potencial. Un programa sensato de adelgazamiento y acondicionamiento físico busca mejorar o mantener 
- todos los componentes de la aptitud física y motora mediante un entrenamiento físico sólido, progresivo y específico para una misión.
-</p>
+largo tiempo causa problemas del coraz&oacute;n.</h3> </p>
+ <hr>
  </article>
 <br><br>
+
  <div class="tabla">
   <table>
     <h1>VITAMINAS Y MINERALES QUE TE AYUDAN</h1>
@@ -280,50 +338,55 @@ largo tiempo causa problemas del coraz&oacute;n. </p>
       <a href="vitaminas.html"><b>VER todo el contenido  de la TABLA</b></a>
  </div>
 <br><hr><br>
+
  <article class="ejercicio">
-  <video id="videof" src="imagenes/6.mp4" autoplay loop></video>
-<h2> Principios del ejercicio</h2>
-<img src="imagenes/7.png" alt="">
-  La adherencia a ciertos principios básicos de ejercicio es importante para desarrollar un programa eficaz. 
-  Los mismos principios de ejercicio se aplican a todos, en todos los niveles de preparación física, desde 
-  el atleta de nivel olímpico hasta el corredor de fin de semana. Se deben seguir estos principios básicos del ejercicio.
-<h2>Regularidad</h2>
-  Para lograr un efecto de entrenamiento, debes hacer ejercicio con frecuencia. Debes ejercitar cada uno 
-  de los primeros cuatro componentes de la aptitud física al menos tres veces por semana. El ejercicio 
+  <video autoplay loop controls playsinline preload="metadata">
+    <source src="imagenes/6.mp4" type="video/mp4">
+      Tu Navegador no soporta video HTML5
+  </video>
+  
+  <h2> Principios del ejercicio</h2>
+  <img src="imagenes/7.png" alt="">
+   La adherencia a ciertos principios básicos de ejercicio es importante para desarrollar un programa eficaz. 
+   Los mismos principios de ejercicio se aplican a todos, en todos los niveles de preparación física, desde 
+   el atleta de nivel olímpico hasta el corredor de fin de semana. Se deben seguir estos principios básicos del ejercicio.
+   <h2>Regularidad</h2>
+   Para lograr un efecto de entrenamiento, debes hacer ejercicio con frecuencia. Debes ejercitar cada uno 
+   de los primeros cuatro componentes de la aptitud física al menos tres veces por semana. El ejercicio 
    puede hacer más daño que bien. La regularidad también es importante para descansar, dormir y seguir una dieta adecuada.
- <h2> Progresión</h2>
-  La intensidad (qué tan duro) y/o la duración (cuánto tiempo) del ejercicio deben aumentar gradualmente para mejorar 
-  el nivel de condición física.
-<h2>Balance</h2>
-  Para ser eficaz, un programa debe incluir actividades que aborden todos los componentes de la aptitud física, 
-  ya que enfatizar demasiado cualquiera de ellos puede perjudicar a los demás.
-<h2> Variedad</h2>
-  Ofrecer una variedad de actividades reduce el aburrimiento y aumenta la motivación y el progreso.
-<h2>Especificidad</h2>
-  El entrenamiento debe estar orientado a objetivos específicos. Por ejemplo, las personas se vuelven 
-  mejores corredores si su entrenamiento enfatiza la carrera. Aunque la natación es un gran ejercicio, 
-  no mejora el tiempo de una carrera de 2 millas tanto como lo hace un programa de carrera.
-  <h2>Recuperación</h2>
-  Un día duro de entrenamiento para un componente determinado de la actividad física debe ir seguido 
-  de un día de entrenamiento más fácil o de descanso para ese componente o grupo muscular, a fin de facilitar la recuperación. 
-  Otra forma de facilitar la recuperación es alternar los grupos musculares ejercitados cada dos días, especialmente 
+   <h2> Progresión</h2>
+   La intensidad (qué tan duro) y/o la duración (cuánto tiempo) del ejercicio deben aumentar gradualmente para mejorar 
+   el nivel de condición física.
+   <h2>Balance</h2>
+   Para ser eficaz, un programa debe incluir actividades que aborden todos los componentes de la aptitud física, 
+   ya que enfatizar demasiado cualquiera de ellos puede perjudicar a los demás.
+   <h2> Variedad</h2>
+   Ofrecer una variedad de actividades reduce el aburrimiento y aumenta la motivación y el progreso. 
+   <h2>Especificidad</h2>
+   El entrenamiento debe estar orientado a objetivos específicos. Por ejemplo, las personas se vuelven 
+   mejores corredores si su entrenamiento enfatiza la carrera. Aunque la natación es un gran ejercicio, 
+   no mejora el tiempo de una carrera de 2 millas tanto como lo hace un programa de carrera.
+   <h2>Recuperación</h2>
+   Un día duro de entrenamiento para un componente determinado de la actividad física debe ir seguido 
+   de un día de entrenamiento más fácil o de descanso para ese componente o grupo muscular, a fin de facilitar la recuperación. 
+   Otra forma de facilitar la recuperación es alternar los grupos musculares ejercitados cada dos días, especialmente 
    se entrena para aumentar la fuerza o la resistencia muscular.
-<h2> Sobrecarga </h2>
-  La carga de trabajo de cada sesión de ejercicio debe superar las exigencias normales del cuerpo para 
-  lograr un efecto de entrenamiento.
-   
- </article>
+   <h2> Sobrecarga </h2>
+   La carga de trabajo de cada sesión de ejercicio debe superar las exigencias normales del cuerpo para 
+   lograr un efecto de entrenamiento.
+</article>
 <br><br>
+
  <article class="estrategia">
-<header><h1>8 estrategias comprobadas para obtener ganancias musculares máximas</h1></header>
-<hr><br>
-<img src="imagenes/8.png" alt=""> 
-<h4>  
- Hay mucha información contradictoria sobre el tema de la construcción de músculos 
- y, a veces, puede resultar muy difícil saber por dónde empezar. Si eres un 
- principiante promedio que busca algunas pautas básicas para seguir en el gimnasio, 
- los siguientes 8 puntos te ayudarán a empezar por el buen camino.
-</h4>
+  <header><h2>8 estrategias comprobadas para obtener ganancias musculares máximas</h2></header>
+  <hr><br>
+  <img src="imagenes/8.png" alt=""> 
+  <h4>  
+   Hay mucha información contradictoria sobre el tema de la construcción de músculos 
+   y, a veces, puede resultar muy difícil saber por dónde empezar. Si eres un 
+   principiante promedio que busca algunas pautas básicas para seguir en el gimnasio, 
+   los siguientes 8 puntos te ayudarán a empezar por el buen camino.
+  </h4>
 <ol>
   <li> <b> 1) Entrena con pesas y céntrate en movimientos compuestos y con peso libre.</b>
    
@@ -570,8 +633,7 @@ largo tiempo causa problemas del coraz&oacute;n. </p>
     </ol>
   </div>
   <a href="https://go.hotmart.com/W70096120V"> Pruebalo y veras el cambio ;)</a>
-  <br><br>
-
+  <br>
   <!--colocamos una animacion  en forma de cubo 3d-->
   <div class="cubo">
   <h2>Paquete Incre&iacute;ble</h2> 
@@ -628,5 +690,4 @@ largo tiempo causa problemas del coraz&oacute;n. </p>
 </div>    
 </body>
 </html>
-
 
